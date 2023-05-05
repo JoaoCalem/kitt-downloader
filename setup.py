@@ -11,10 +11,10 @@ setuptools.setup(
     version="1.0",
     packages=setuptools.find_packages(),
     install_requires=install_requires,
-    package_data={'jd': ['kitt_cookies.txt']},
+    package_data={'kittdownloader': ['kitt_cookies.txt']},
     entry_points={
         'console_scripts': [
-            'lewagon = jd.extract_challenges:main',
+            'lewagon = kittdownloader.extract_challenges:main',
         ],
     },
     include_package_data=True,
